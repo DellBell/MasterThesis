@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorTest">#3C94BC</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#808080</color>
+    <color name="lightSkyBlue">#87CEFA</color>
+    <color name="darkViolet">#9400D3</color>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#F3FFB6</color>
+    <color name="colorPrimaryText">#F8F1FF</color>
+    <color name="iconColor">#FFFFFF</color>
+    <color name="colorHighlight">#F8F1FF</color>
+    <color name="colorRed">#FB4D06</color>
+    <color name="colorGraphGrid">#53565B</color>
+    <color name="colorWindowBackground">#1E2629</color>
+    <color name="colorGraphText">#5E676C</color>
+    <color name="colorAmpere">#3C94BC</color>
+    <color name="colorVolt">#D9DF00</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorErrorText">#FF4444</color>
+
+</resources>

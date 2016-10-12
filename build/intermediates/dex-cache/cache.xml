@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-3987bba7b0218c8d13150f7b6c1ccb5aa143e532.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-e0d6f1ed750819dc1befc5ac0c0ff9c862b2c3a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\it.neokree\MaterialTabs\0.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef6aa7ea0bb2d6adf10965d0a5bb8e353517bff">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-c168151aabeeda0d1172e940ad2d5339fae8cc45.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\library-1.0.19-da8a3e0f06930bc449b31fccda0328cff34b0cfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\com.github.markushi\android-ui\1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="96436aef5f48b09aca1e0183dfcd7782aa580bd6">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-97045996a6076223722abd584e33e4ab2251325f.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\me.tatarka.support\jobscheduler\0.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d5fa4ca32cbbd491d4e027d16f02e897dfed0f2">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-78a3cc9cdaff3280d872709dee5cb0d2e9cd961a.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\materialtest2\customGauge\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="70014d6b9addcbc94d859988c2e57405637c6bb3">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-cb931ef6fbc8ec98b5b806853c73cc1d8b460e4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\classes-17daaf3b77b198bbbf94612f877c1e8354699f5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-d3e75c9a40bf94a7ebb8988087c551d2c868cdb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\DellHome\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\DellHome\Dropbox\Skole\Master 2\Android Code\materialtest2\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-8ed981afb91ad67b0a7a275e30f2b8306ee9494c.jar" />
+    </item>
+
+</items>

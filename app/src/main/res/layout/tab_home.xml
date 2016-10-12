@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    tools:context="com.thesis.dell.materialtest.fragments.TabFragmentHome">
+
+
+
+
+    <!-- SwipeRefreshLayout can only have a single layout!
+    Hence the use of a new Layout(relative layout) -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containerHome">
+
+
+
+        <pl.pawelkleczkowski.customgauge.CustomGauge
+            android:id="@+id/gauge"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            gauge:pointEndColor="@color/colorAccent"
+            gauge:pointStartColor="@color/colorAccent"
+            gauge:strokeCap="ROUND"
+            gauge:strokeColor="@color/colorGraphText"
+            gauge:strokeWidth="19dp"
+            gauge:startValue="0"
+            gauge:endValue="100"
+            gauge:startAngel="90"
+            gauge:sweepAngel="360" />
+
+        <pl.pawelkleczkowski.customgauge.CustomGauge
+            android:id="@+id/innerRim"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            gauge:pointEndColor="@color/colorRed"
+            gauge:pointStartColor="@color/colorRed"
+            gauge:strokeCap="ROUND"
+            gauge:strokeColor="@color/colorRed"
+            gauge:strokeWidth="3dp"
+            gauge:startValue="0"
+            gauge:endValue="100"
+            gauge:startAngel="90"
+            gauge:sweepAngel="360" />
+
+        <pl.pawelkleczkowski.customgauge.CustomGauge
+            android:id="@+id/thinRim"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="255dp"
+            android:layout_height="255dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            gauge:pointEndColor="@color/colorPrimaryDark"
+            gauge:pointStartColor="@color/colorPrimaryDark"
+            gauge:strokeCap="ROUND"
+            gauge:strokeColor="@color/colorPrimaryDark"
+            gauge:strokeWidth="1dp"
+            gauge:startValue="0"
+            gauge:endValue="100"
+            gauge:startAngel="90"
+            gauge:sweepAngel="360" />
+
+
+        <pl.pawelkleczkowski.customgauge.CustomGauge
+            android:id="@+id/outerRim"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="285dp"
+            android:layout_height="285dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            gauge:pointEndColor="@color/colorPrimaryDark"
+            gauge:pointStartColor="@color/colorPrimaryDark"
+            gauge:strokeCap="ROUND"
+            gauge:strokeColor="@color/colorPrimaryDark"
+            gauge:strokeWidth="9dp"
+            gauge:startValue="0"
+            gauge:endValue="100"
+            gauge:startAngel="90"
+            gauge:sweepAngel="360" />
+
+        <TextView
+            android:id="@+id/percentNumTextView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="20dp"
+            android:paddingStart="5dp"
+            android:text="0"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/percentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:layout_alignTop="@+id/percentNumTextView"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_alignEnd="@+id/percentNumTextView" />
+
+        <TextView
+            android:id="@+id/textVolleyError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/size_word"
+            android:textColor="@color/colorErrorText"
+            android:visibility="gone"/>
+
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_above="@+id/outerRim"
+            android:layout_centerHorizontal="true"
+            android:checkedButton="@+id/radioOff">
+
+            <RadioButton
+                android:id="@+id/radioCharge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radio_Charge"
+                android:button="@null"
+                android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+                android:gravity="center_horizontal|bottom"/>
+
+            <RadioButton
+                android:id="@+id/radioOff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radio_Off"
+                android:button="@null"
+                android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+                android:gravity="center_horizontal|bottom"/>
+
+            <RadioButton
+                android:id="@+id/radioDischarge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/radio_Discharge"
+                android:button="@null"
+                android:drawableBottom="?android:attr/listChoiceIndicatorSingle"
+                android:gravity="center_horizontal|bottom"/>
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.SwipeRefreshLayout >
